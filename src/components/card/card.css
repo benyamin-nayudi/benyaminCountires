@@ -1,0 +1,43 @@
+.card-link {
+  text-decoration: none;
+}
+
+.card {
+  max-width: 320px;
+
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 5px;
+
+  overflow: hidden;
+
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+  transition: all ease 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card .card-img img {
+  width: 320px;
+  object-fit: contain;
+}
+
+.card-subtitle {
+  padding: 10px;
+}
+.card-subtitle h5 {
+  font-size: 16px;
+  font-weight: bold;
+
+  margin: 16px 0;
+
+  text-transform: capitalize;
+}
+.card-subtitle p {
+  margin-bottom: 3px;
+  text-transform: capitalize;
+}
